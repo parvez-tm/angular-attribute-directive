@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 export class AttributeComponent {
 
   ind:number[] = []
-  num:number = 0
+  num!:number
   constructor(){
     for (let index = 1; index <= 50; index++) {
       this.ind.push(index)

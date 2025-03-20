@@ -7,6 +7,12 @@ button {
     font-size: 20px;
 }
 
+
+.active-btn {
+    background-color: #234560;
+    color: #fff;
+}
+
 .container {
     padding: 50px;
 }
