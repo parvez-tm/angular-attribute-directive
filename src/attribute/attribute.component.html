@@ -1,11 +1,11 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4">
-            <button class="btn btn-primary" (click)="divisible(2)">Number divisible by 2</button>
-            <button class="btn btn-primary" (click)="divisible(3)">Number divisible by 3</button>
-            <button class="btn btn-primary" (click)="divisible(5)">Number divisible by 5</button>
-            <button class="btn btn-primary" (click)="divisible(10)">Number divisible by 10</button>
-            <button class="btn btn-primary" (click)="divisible(0)">Clear</button>
+            <button (click)="divisible(2)">Number divisible by 2</button>
+            <button (click)="divisible(3)">Number divisible by 3</button>
+            <button (click)="divisible(5)">Number divisible by 5</button>
+            <button (click)="divisible(10)">Number divisible by 10</button>
+            <button (click)="divisible(0)">Clear</button>
         </div>
         <div class="col-md-8">
             @for(i of ind;track i){
